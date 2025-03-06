@@ -1,0 +1,9 @@
+body { margin: 0; overflow: hidden; background: #87CEEB; font-family: Arial, sans-serif; }
+#mode-select, #username-prompt, #showcase { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; }
+#mode-select h1, #username-prompt h2, #showcase h2 { color: white; }
+#mode-select button, #username-prompt button, #showcase button { padding: 10px 20px; margin: 10px; font-size: 18px; cursor: pointer; }
+#username-input { padding: 5px; font-size: 16px; }
+#timer { position: absolute; top: 10px; left: 10px; font-size: 20px; color: white; }
+#theme { position: absolute; top: 40px; left: 10px; font-size: 18px; color: white; }
+#palette { position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); display: flex; gap: 5px; }
+.palette-color { width: 30px; height: 30px; cursor: pointer; border: 2px solid #fff; }
